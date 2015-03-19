@@ -1,0 +1,4 @@
+Dependencies for Project '123', Target 'Target 1': (DO NOT MODIFY !)
+F (.\S3C2440.s)(0x55001B30)(--cpu ARM920T --pd "__EVAL SETA 1" -g --apcs=interwork -I "E:\KeilForARM\ARM\INC" -I "E:\KeilForARM\ARM\INC\Samsung" --list "S3C2440.lst" --xref -o "S3C2440.o" --depend "S3C2440.d")
+F (.\main.c)(0x55001A4A)(-c --cpu ARM920T -D__EVAL -g -O0 --apcs=interwork -I "E:\KeilForARM\ARM\INC" -I "E:\KeilForARM\ARM\INC\Samsung" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (E:\KeilForARM\ARM\INC\Samsung\s3c2440.h)(0x4BB19FA6)

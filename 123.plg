@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\大学\比赛项目\btimen启动代码\heihei\123.uvproj
+Project File Date:  03/11/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(22): warning:  #111-D: statement is unreachable
+main.c:         return 0;
+main.c:         ^
+main.c: main.c: 1 warning, 0 errors
+linking...
+123.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=1020 RO-data=16 RW-data=0 ZI-data=1256  
+123.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"123.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+123.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=1020 RO-data=16 RW-data=0 ZI-data=1256  
+123.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"123.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling S3C2440.s...
+S3C2440.s(253): error: A1163E: Unknown opcode __user_initial_stackheap , expecting opcode or Macro
+S3C2440.s:   253 00000000       __user_initial_stackheap
+S3C2440.s:                      ^
+S3C2440.s: 1 Error, 0 Warnings
+compiling main.c...
+Target not created
+Build target 'Target 1'
+assembling S3C2440.s...
+linking...
+123.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=992 RO-data=16 RW-data=0 ZI-data=1256  
+123.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"123.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\大学\\比赛项目\\btimen启动代码\\heihei\\123.AXF" 
+VTarget = 3.306V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: CP15.0.0: 0x41129200: ARM, Architecure 4T
+Info: CP15.0.1: 0x0D172172: ICache: 16kB (64*8*32), DCache: 16kB (64*8*32)
+Info: Cache type: Separate, Write-back, Format A
+Info: RTCK is not connected
+Info: Auto JTAG speed: 6000 kHz
+***JLink Warning: PC of target system has unexpected value of 0x01F7642C after reset.
+Info: CP15.0.0: 0x41129200: ARM, Architecure 4T
+Info: CP15.0.1: 0x0D172172: ICache: 16kB (64*8*32), DCache: 16kB (64*8*32)
+Info: Cache type: Separate, Write-back, Format A
+DLL version V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 8192
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x0032409D
+ARM9 identified.
+JTAG speed: 1000 kHz
+Info: Device "S3C2440A" selected (0 KB flash, 0 KB RAM).
+***JLink Warning: PC of target system has unexpected value of 0x01F764E8 after reset.
+Info: CP15.0.0: 0x41129200: ARM, Architecure 4T
+Info: CP15.0.1: 0x0D172172: ICache: 16kB (64*8*32), DCache: 16kB (64*8*32)
+Info: Cache type: Separate, Write-back, Format A
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+***JLink Warning: PC of target system has unexpected value of 0x4000022C after reset.
+Info: CP15.0.0: 0x41129200: ARM, Architecure 4T
+Info: CP15.0.1: 0x0D172172: ICache: 16kB (64*8*32), DCache: 16kB (64*8*32)
+Info: Cache type: Separate, Write-back, Format A
+JTAG speed: 1000 kHz
+Application running ...
